@@ -66,10 +66,10 @@ function Signup() {
               onChange={(e) => setPassword(e.target.value)}
             />
           </div>
-          <button type="submit" className="w-full bg-blue-500 text-white py-2 rounded">Sign Up</button>
+          <button type="submit" className="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600">Sign Up</button>
         </form>
         <p className="mt-4 text-center">
-          Already have an account? <Link to="/" className="text-blue-500">Login</Link>
+          Already have an account? <Link to="/" className="text-blue-500 hover:underline">Login</Link>
         </p>
       </div>
     </div>

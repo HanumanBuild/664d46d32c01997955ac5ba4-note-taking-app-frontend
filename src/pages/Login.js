@@ -41,10 +41,10 @@ function Login() {
               onChange={(e) => setPassword(e.target.value)}
             />
           </div>
-          <button type="submit" className="w-full bg-blue-500 text-white py-2 rounded">Login</button>
+          <button type="submit" className="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600">Login</button>
         </form>
         <p className="mt-4 text-center">
-          Don't have an account? <Link to="/signup" className="text-blue-500">Sign up</Link>
+          Don't have an account? <Link to="/signup" className="text-blue-500 hover:underline">Sign up</Link>
         </p>
       </div>
     </div>
